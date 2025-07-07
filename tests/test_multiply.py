@@ -12,3 +12,6 @@ def test_multiply_cycle2():
 
 def test_multiply_cycle3():
     assert multiply(-1, 1) == -1
+
+def test_multiply_cycle4():
+    assert multiply(23, 45) == 1035
